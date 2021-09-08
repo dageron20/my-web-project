@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="963b1b42-8d4e-49f5-8db3-aea7f18b8e0f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="963b1b42-8d4e-49f5-8db3-aea7f18b8e0f" name="Changes" comment="update: add land for html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +30,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631081786111</updated>
-      <workItem from="1631081791209" duration="251000" />
+      <workItem from="1631081791209" duration="289000" />
     </task>
+    <task id="LOCAL-00001" summary="update: add land for html">
+      <created>1631082074546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631082074546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update: add land for html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: add land for html" />
   </component>
 </project>
