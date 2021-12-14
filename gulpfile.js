@@ -13,12 +13,14 @@ gulp.task('clean', async function () {
 })
 
 gulp.task('sass', function () {
-    return gulp.src('app/scss/style.css')
+    return gulp.src('app/scss/*.*')
         .pipe(sass({ outputStyle: 'compressed' }))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(autoprefixer({
+        .pipe(
+            autoprefixer({
             overrideBrowserslist: ['last 8 versions']
-        }))
+        })
+        )
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({ stream: true }));
 });
@@ -61,8 +63,8 @@ gulp.task('js', function () {
 gulp.task('browser-sync', function () {
     browserSync.init({
         server: {
-            baseDir: "app/"
-        }
+            baseDir: "app/",
+        },
     });
 });
 
@@ -79,7 +81,7 @@ gulp.task("export", async function () {
   });
   
   gulp.task("watch", function () {
-    gulp.watch("app/scss/**/*.scss", gulp.parallel("sass"));
+    gulp.watch("app/scss/**/*.*scss", gulp.parallel("sass"));
     gulp.watch("app/*.html", gulp.parallel("html"));
     gulp.watch("app/js/*.js", gulp.parallel("js"));
   });
