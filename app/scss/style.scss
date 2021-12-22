@@ -588,3 +588,71 @@
 
 //end sales leaders
 
+//start footer
+    .footer {
+        &__inner {
+            background-color: $gray;
+            padding: 100px 180px 0px;
+            &-title {
+                margin-bottom: 70px;
+            }
+        }
+
+        &__items {
+            
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            padding: 0 15px;
+
+            &-title {
+                font-size: 20px;
+                @include f600;
+                margin-bottom: 24px;
+            }
+            
+            &-list li {
+                margin: 16px 0;
+                & a:hover {
+                    color: $hoverText;
+                }
+                & a img {
+                    max-width: 114px;
+                    width: 100%;
+                }
+            }
+
+        }
+
+        &__bottom {
+            padding: 110px 0px 50px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &-copyright {
+                font-size: 14px;
+                @include f600;
+            }
+
+            &-privacyPolicy,
+            &-termsOfUse {
+                font-size: 14px;
+                line-height: 1,710;
+                transition: color 0.3s ease;
+                color: $hoverText;
+                cursor: pointer;
+            }
+            &-privacyPolicy:hover,
+            &-termsOfUse:hover {
+                color: $text;
+            }
+        }
+
+    }
+//end footer
+
