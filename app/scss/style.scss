@@ -758,9 +758,41 @@
         }
       }
     //end menu
-
-
-
 //end footer
+
+.row {
+    margin-top:100px;
+}
+
+.comm_item {
+    border: 1px solid $underline;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.alert-primary {
+    @include f600;
+    font-size: 20px;
+}
+
+.alert-success {
+    background-color: white;
+}
+
+.fetch-comment {
+    padding: 20px 10px;
+    border: 1px solid $underline;
+    margin-bottom: 20px;
+}
+
+#namecomment {
+    @include f800;
+}
+
+#emailcomment {
+    display: block;
+    @include f600;
+}
 
 @import '_media';

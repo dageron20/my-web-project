@@ -79,7 +79,14 @@ $(function() {
   $(document).on("click", ".close-menu", function () {
     t1.reversed(!t1.reversed());
   });
-
-
 });
+
+//end menu
+
+// add comment
+
+
+
+//users comment
+
 
