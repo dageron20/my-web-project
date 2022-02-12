@@ -1,1 +1,1 @@
-web: qw
+web: npm run start
